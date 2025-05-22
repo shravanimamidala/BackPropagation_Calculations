@@ -17,13 +17,13 @@ Easily extendable and readable class-based code.
 🏗️ Network Structure
 You can define:
 
-Number of input neurons
+* Number of input neurons
 
-One or more hidden layers with arbitrary neurons
+* One or more hidden layers with arbitrary neurons
 
-Number of output neurons
+* Number of output neurons
 
-Manual weights and biases for all layers
+* Manual weights and biases for all layers
 
 🚀 Getting Started
 Follow these steps to run and understand this neural network from scratch:
@@ -35,7 +35,7 @@ A terminal or command prompt
 
 Basic understanding of neural networks (inputs, layers, activations)
 
-📦 Step 1: Download the Script
+📦 **Step 1: Download the Script**
 Save the code file as neural_network.py.
 
 You can either:
@@ -44,20 +44,20 @@ Copy and paste the code into a new file in your text editor
 
 Or download it from a GitHub repository (if applicable)
 
-🧠 Step 2: Understand the Network Configuration
+🧠**Step 2: Understand the Network Configuration**
 When you run the script, the program will interactively ask you:
 
-How many input neurons your network should have
+* How many input neurons your network should have
 
-How many hidden layers and how many neurons per layer
+* How many hidden layers and how many neurons per layer
 
-How many output neurons
+* How many output neurons
 
-The weights for every connection between layers
+* The weights for every connection between layers
 
 💡 This manual setup is designed to help you understand exactly how each value influences the output.
 
-⌨️ Step 3: Run the Script
+⌨️**Step 3: Run the Script**
 Open a terminal or command prompt and run:
 python neural_network.py
 You’ll be prompted to enter the architecture and weights like so:
@@ -76,20 +76,20 @@ Then, you'll enter the input values:
 
 Enter input values (space-separated): 0.9 0.1
 
-📊 Step 4: View the Forward and Backward Pass
+📊 **Step 4: View the Forward and Backward Pas**s
 After entering the input and weights, the network will:
 
-Perform a forward pass, calculating all activations with detailed explanations.
+1.Perform a forward pass, calculating all activations with detailed explanations.
 
-Perform a backward pass, calculating all gradients and deltas layer by layer.
+2.Perform a backward pass, calculating all gradients and deltas layer by layer.
 
 This helps you trace how:
 
-Inputs are transformed into outputs
+* Inputs are transformed into outputs
 
-Errors propagate backward through the network
+* Errors propagate backward through the network
 
-Gradients are computed for each weight
+* Gradients are computed for each weight
 
-📜 License
+📜 **License**
 This code is open for educational and research use. Feel free to adapt and extend it.
